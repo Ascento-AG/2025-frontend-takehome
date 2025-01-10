@@ -1,0 +1,39 @@
+{
+  "name": "takehome",
+  "version": "0.2.0",
+  "description": "Template for doing the Frontend takehome project",
+  "author": "Ascento <https://www.ascento.ai/>",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ascento-ag/takehome"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.3.2",
+    "@storybook/addon-interactions": "^8.3.2",
+    "@storybook/addon-links": "^8.3.2",
+    "@storybook/blocks": "^8.3.2",
+    "@storybook/react": "^8.3.2",
+    "@storybook/react-vite": "^8.3.2",
+    "@storybook/test": "^8.3.2",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "storybook": "^8.3.2",
+    "vite": "^5.2.0",
+    "typescript": "^4.3.0"
+  }
+}
